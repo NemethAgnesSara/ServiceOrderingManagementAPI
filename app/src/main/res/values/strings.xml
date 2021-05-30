@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ServiceOrdering</string>
+    <string name="name">Név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejeletkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="guest">Vendég</string>
+    <string name="email_address">Email cím</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="home">Otthoni</string>
+    <string name="work">Munkahelyi</string>
+    <string name="cancel">Mégse</string>
+    <string name="description">Leírás</string>
+    <string name="notify">Elérhetőségek:</string>
+    <string name="myorders">Rendeléseim</string>
+    <string name="orderdate">Rendelés időpontja:</string>
+    <string name="reqdate">Végzés kívánt időpontja:</string>
+    <string name="title">Service Ordering Management</string>
+
+    <string-array name="item_names">
+        <item>Szoba festés</item>
+        <item>Vízvezeték javítás</item>
+        <item>Lakberendezés</item>
+        <item>Ablak csere</item>
+        <item>Kertészkedés</item>
+
+
+    </string-array>
+    <string-array name="item_categories">
+        <item>Órabér: 3000Ft, Hétköznap 8.00-17.00</item>
+        <item>Órabér: 10 000Ft, Hétköznap 8.00-15.00</item>
+        <item>Órabér: 1000Ft</item>
+        <item>Órabér: 2000Ft, Hétköznap 7.00-16.00</item>
+        <item>Órabér: 2500Ft, Hétköznap 6.00-15.00</item>
+    </string-array>
+</resources>
