@@ -14,7 +14,8 @@
         android:layout_height="77dp"
         android:layout_marginLeft="@dimen/margin_side"
         android:layout_marginRight="@dimen/margin_side"
-        android:layout_marginBottom="372dp"
+        android:paddingRight="@dimen/margin_side"
+        android:paddingLeft="@dimen/margin_side"
         android:ems="10"
         android:hint="@string/description"
         android:inputType="textMultiLine"
@@ -23,7 +24,7 @@
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reasonTV"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.05" />
 
     <TextView
         android:id="@+id/serviceName"
@@ -34,13 +35,14 @@
         android:layout_marginRight="@dimen/margin_side"
         android:layout_marginBottom="348dp"
         android:text="TextView"
+        android:paddingRight="@dimen/margin_side"
+        android:paddingLeft="@dimen/margin_side"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tite"
-        app:layout_constraintVertical_bias="0.064" />
-
+        app:layout_constraintVertical_bias="0.119" />
 
     <Button
         android:id="@+id/saveButton"
@@ -54,10 +56,10 @@
         android:text="Mentés"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reason"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/tite"
@@ -89,42 +91,44 @@
         android:text="Mégse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintHorizontal_bias="0.283"
         app:layout_constraintStart_toEndOf="@+id/saveButton"
         app:layout_constraintTop_toBottomOf="@+id/reason"
-        app:layout_constraintVertical_bias="0.576" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/cancellationDate"
-        android:layout_width="380dp"
-        android:layout_height="63dp"
+        android:layout_width="378dp"
+        android:layout_height="30dp"
         android:layout_marginLeft="@dimen/margin_side"
         android:layout_marginTop="@dimen/margin_top"
         android:layout_marginRight="@dimen/margin_side"
         android:layout_marginBottom="348dp"
+        android:paddingLeft="@dimen/margin_side"
+        android:paddingRight="@dimen/margin_side"
         android:text="txt view"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/serviceName"
-        app:layout_constraintVertical_bias="0.053" />
+        app:layout_constraintVertical_bias="0.057" />
 
     <TextView
         android:id="@+id/reasonTV"
         android:layout_width="379dp"
         android:layout_height="26dp"
         android:layout_marginLeft="@dimen/margin_side"
-        android:layout_marginTop="@dimen/margin_top"
         android:layout_marginRight="@dimen/margin_side"
-        android:layout_marginBottom="436dp"
+        android:paddingLeft="@dimen/margin_side"
+        android:paddingRight="@dimen/margin_side"
         android:text="A szolgáltatás lemondásának oka:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cancellationDate"
-        app:layout_constraintVertical_bias="0.091" />
+        app:layout_constraintVertical_bias="0.019" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

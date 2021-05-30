@@ -20,10 +20,10 @@
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/notifyTV"
-        app:layout_constraintVertical_bias="0.016" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/descrption"
@@ -32,17 +32,17 @@
         android:layout_marginLeft="@dimen/margin_side"
         android:layout_marginTop="@dimen/margin_top"
         android:layout_marginRight="@dimen/margin_side"
-        android:layout_marginBottom="420dp"
         android:ems="10"
         android:hint="@string/description"
         android:inputType="textMultiLine"
+        android:paddingLeft="@dimen/margin_side"
+        android:paddingRight="@dimen/margin_side"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descrptionTV"
-        app:layout_constraintVertical_bias="0.0" />
-
+        app:layout_constraintVertical_bias="0.027" />
 
     <TextView
         android:id="@+id/serviceName"
@@ -55,10 +55,10 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tite"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.094" />
 
     <Button
         android:id="@+id/dateButton"
@@ -72,41 +72,41 @@
         app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toEndOf="@+id/dateText"
         app:layout_constraintTop_toBottomOf="@+id/reqdateTV"
-        app:layout_constraintVertical_bias="0.031" />
+        app:layout_constraintVertical_bias="0.074" />
 
     <TextView
         android:id="@+id/dateText"
-        android:layout_width="151dp"
-        android:layout_height="30dp"
+        android:layout_width="184dp"
+        android:layout_height="54dp"
         android:layout_marginLeft="@dimen/margin_side"
         android:layout_marginTop="@dimen/margin_top"
         android:layout_marginRight="@dimen/margin_side"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.013"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reqdateTV"
-        app:layout_constraintVertical_bias="0.03" />
+        app:layout_constraintVertical_bias="0.076" />
 
     <Button
         android:id="@+id/saveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_side"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_side"
         android:onClick="saveOrder"
         android:text="Mentés"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/orderDate"
-        app:layout_constraintVertical_bias="0.558"
-        android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginLeft="@dimen/margin_side"
-        android:layout_marginRight="@dimen/margin_side"/>
+        app:layout_constraintVertical_bias="0.333" />
 
     <TextView
         android:id="@+id/orderDate"
@@ -116,12 +116,14 @@
         android:layout_marginTop="@dimen/margin_top"
         android:layout_marginRight="@dimen/margin_side"
         android:text="TextView"
+        android:paddingLeft="@dimen/margin_side"
+        android:paddingRight="@dimen/margin_side"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/orderDateTV"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.07" />
 
     <TextView
         android:id="@+id/tite"
@@ -146,16 +148,17 @@
         android:id="@+id/cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mégse"
+        android:layout_marginLeft="@dimen/margin_side"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_side"
         android:onClick="cancel"
+        android:text="Mégse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toEndOf="@+id/saveButton"
         app:layout_constraintTop_toBottomOf="@+id/orderDate"
-        app:layout_constraintVertical_bias="0.558"
-        android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginLeft="@dimen/margin_side"
-        android:layout_marginRight="@dimen/margin_side"/>
+        app:layout_constraintVertical_bias="0.333" />
 
     <TextView
         android:id="@+id/notifyTV"
@@ -168,42 +171,41 @@
         android:text="@string/notify"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/serviceName"
-        app:layout_constraintVertical_bias="0.053" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/descrptionTV"
         android:layout_width="match_parent"
         android:layout_height="16dp"
         android:layout_marginLeft="@dimen/margin_side"
-        android:layout_marginTop="@dimen/margin_top"
         android:layout_marginRight="@dimen/margin_side"
-        android:layout_marginBottom="348dp"
         android:text="Leírás:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/notifi"
-        app:layout_constraintVertical_bias="0.091" />
+        app:layout_constraintVertical_bias="0.034" />
 
     <TextView
         android:id="@+id/reqdateTV"
-        android:layout_width="match_parent"
-        android:layout_height="22dp"
+        android:layout_width="380dp"
+        android:layout_height="28dp"
         android:layout_marginLeft="@dimen/margin_side"
-        android:layout_marginTop="@dimen/margin_top"
         android:layout_marginRight="@dimen/margin_side"
-        android:layout_marginBottom="348dp"
+        android:paddingRight="@dimen/margin_side"
+        android:paddingLeft="@dimen/margin_side"
+        android:paddingTop="5dp"
         android:text="@string/reqdate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descrption"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.061" />
 
     <TextView
         android:id="@+id/orderDateTV"
@@ -212,14 +214,15 @@
         android:layout_marginLeft="@dimen/margin_side"
         android:layout_marginTop="@dimen/margin_top"
         android:layout_marginRight="@dimen/margin_side"
-        android:layout_marginBottom="348dp"
         android:text="@string/orderdate"
+        android:paddingRight="@dimen/margin_side"
+        android:paddingLeft="@dimen/margin_side"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dateText"
-        app:layout_constraintVertical_bias="0.052" />
+        app:layout_constraintVertical_bias="0.1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

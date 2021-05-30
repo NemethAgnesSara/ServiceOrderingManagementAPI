@@ -66,6 +66,8 @@
         android:text="@string/login"
         android:textColor="#0C0C0C"
         app:backgroundTint="#FFC107"
+        android:layout_marginBottom="@dimen/margin_top"
+        android:paddingBottom="@dimen/margin_top"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -78,17 +80,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="212dp"
+        android:layout_marginTop="@dimen/margin_top"
+
         android:onClick="registration"
         android:text="@string/registration"
         android:textColor="#0C0C0C"
         app:backgroundTint="#FFC107"
         app:iconTint="#F6F3F3"
-
+        android:paddingTop="@dimen/margin_top"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        app:layout_constraintVertical_bias="0.828" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
